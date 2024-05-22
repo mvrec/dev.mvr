@@ -1,0 +1,22 @@
+[
+    {"name": "Theme 01", "fontcolor": "#28C0BC", "start": "#7b1fa2", "end": "#5A0081" },
+    { "name": "Theme 02", "fontcolor": "#ffff02", "start": "#d32f2f", "end": "#ca6700" },
+    { "name": "Theme 03", "fontcolor": "#8AB8C0", "start": "#c2185b", "end": "#B20833" },
+    { "name": "Theme 04", "fontcolor": "#ffff02", "start": "#6F75FD", "end": "#03A9F4" },
+    { "name": "Theme 05", "fontcolor": "#ffffff", "start": "#303f9f", "end": "#095984" },
+    { "name": "Theme 06", "fontcolor": "#2F0649", "start": "#1976D2", "end": "#33109B" },
+    { "name": "Theme 07", "fontcolor": "#6BF7F3", "start": "#0097a7", "end": "#027382" },
+    { "name": "Theme 08", "fontcolor": "#ffffff", "start": "#00796b", "end": "#03656C" },
+    { "name": "Theme 09", "fontcolor": "#ffffff", "start": "#388e3c", "end": "#207B24" },
+    { "name": "Theme 10", "fontcolor": "#3E303F", "start": "#689F38", "end": "#4C7E25" },
+    { "name": "Theme 11", "fontcolor": "#1E3D13", "start": "#AFB42B", "end": "#858821" },
+    { "name": "Theme 12", "fontcolor": "#CC1F2B", "start": "#fbc02d", "end": "#BF911A" },
+    { "name": "Theme 13", "fontcolor": "#ffffff", "start": "#ffa000", "end": "#C87E03" },
+    { "name": "Theme 14", "fontcolor": "#2A2727", "start": "#f57c00", "end": "#B85E00" },
+    { "name": "Theme 15", "fontcolor": "#ffffff", "start": "#e64a19", "end": "#B5340B" },
+    { "name": "Theme 16", "fontcolor": "#ffff02", "start": "#5d4037", "end": "#522F24" },
+    { "name": "Theme 17", "fontcolor": "#C1DCE7", "start": "#455a64", "end": "#2E4652" },
+    { "name": "Theme 18", "fontcolor": "#477A96", "start": "#e1d0e0", "end": "#e2b8df" },
+    { "name": "Theme 19", "fontcolor": "#e4ba92", "start": "#52835b", "end": "#2C5F36" },
+    { "name": "Theme 20", "fontcolor": "#fa0231", "start": "#0c0c0c", "end": "#1D1F1D" }
+]
