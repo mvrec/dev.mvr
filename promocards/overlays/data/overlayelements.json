@@ -1,0 +1,13 @@
+[
+    { "name": "None", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/empty.png" },
+    { "name": "Element 01", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P01.png" },
+    { "name": "Element 02", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P02.png" },
+    { "name": "Element 03", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P03.png" },
+    { "name": "Element 04", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P04.png" },
+    { "name": "Element 05", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P05.png" },
+    { "name": "Element 06", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P06.png" },
+    { "name": "Element 07", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P07.png" },
+    { "name": "Element 08", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P08.png" },
+    { "name": "Element 09", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P09.png" },
+    { "name": "Element 10", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/portrait/P10.png" }
+]
