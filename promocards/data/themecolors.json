@@ -1,22 +1,489 @@
 [
-    {"name": "Theme 01", "fontcolor": "#28C0BC", "start": "#7b1fa2", "end": "#5A0081" },
-    { "name": "Theme 02", "fontcolor": "#ffff02", "start": "#d32f2f", "end": "#ca6700" },
-    { "name": "Theme 03", "fontcolor": "#8AB8C0", "start": "#c2185b", "end": "#B20833" },
-    { "name": "Theme 04", "fontcolor": "#ffff02", "start": "#6F75FD", "end": "#03A9F4" },
-    { "name": "Theme 05", "fontcolor": "#ffffff", "start": "#303f9f", "end": "#095984" },
-    { "name": "Theme 06", "fontcolor": "#2F0649", "start": "#1976D2", "end": "#33109B" },
-    { "name": "Theme 07", "fontcolor": "#6BF7F3", "start": "#0097a7", "end": "#027382" },
-    { "name": "Theme 08", "fontcolor": "#ffffff", "start": "#00796b", "end": "#03656C" },
-    { "name": "Theme 09", "fontcolor": "#ffffff", "start": "#388e3c", "end": "#207B24" },
-    { "name": "Theme 10", "fontcolor": "#3E303F", "start": "#689F38", "end": "#4C7E25" },
-    { "name": "Theme 11", "fontcolor": "#1E3D13", "start": "#AFB42B", "end": "#858821" },
-    { "name": "Theme 12", "fontcolor": "#CC1F2B", "start": "#fbc02d", "end": "#BF911A" },
-    { "name": "Theme 13", "fontcolor": "#ffffff", "start": "#ffa000", "end": "#C87E03" },
-    { "name": "Theme 14", "fontcolor": "#2A2727", "start": "#f57c00", "end": "#B85E00" },
-    { "name": "Theme 15", "fontcolor": "#ffffff", "start": "#e64a19", "end": "#B5340B" },
-    { "name": "Theme 16", "fontcolor": "#ffff02", "start": "#5d4037", "end": "#522F24" },
-    { "name": "Theme 17", "fontcolor": "#C1DCE7", "start": "#455a64", "end": "#2E4652" },
-    { "name": "Theme 18", "fontcolor": "#477A96", "start": "#e1d0e0", "end": "#e2b8df" },
-    { "name": "Theme 19", "fontcolor": "#e4ba92", "start": "#52835b", "end": "#2C5F36" },
-    { "name": "Theme 20", "fontcolor": "#fa0231", "start": "#0c0c0c", "end": "#1D1F1D" }
+    {
+        "name": "Arabian Red",
+        "fontcolor": "#ffffff",
+        "start": "#A30B2E",
+        "end": "#CE1F1F"
+    },
+    {
+        "name": "Royal Maroon",
+        "fontcolor": "#FF7B4D",
+        "start": "#670E10",
+        "end": "#941417"
+    },
+    {
+        "name": "Temptation",
+        "fontcolor": "#FFEBCD",
+        "start": "#A41247",
+        "end": "#b32c41"
+    },
+    {
+        "name": "Burgundy",
+        "fontcolor": "#D3D3D3",
+        "start": "#c2185b",
+        "end": "#e30a41"
+    },
+    {
+        "name": "Wine",
+        "fontcolor": "#8AB8C0",
+        "start": "#80013F",
+        "end": "#b30158"
+    },
+    {
+        "name": "Flame",
+        "fontcolor": "#ffffff",
+        "start": "#e64a19",
+        "end": "#B5340B"
+    },
+    {
+        "name": "Indian Orange",
+        "fontcolor": "#333333",
+        "start": "#FF7722",
+        "end": "#ee5c00"
+    },
+    {
+        "name": "Persimmon",
+        "fontcolor": "#ffff02",
+        "start": "#d32f2f",
+        "end": "#ca6700"
+    },
+    {
+        "name": "Windsor",
+        "fontcolor": "#333333",
+        "start": "#f57c00",
+        "end": "#B85E00"
+    },
+    {
+        "name": "Carrot Orange",
+        "fontcolor": "#ffff02",
+        "start": "#ed9121",
+        "end": "#cb7710"
+    },
+    {
+        "name": "Saffron",
+        "fontcolor": "#CC1F2B",
+        "start": "#fbc02d",
+        "end": "#BF911A"
+    },
+    {
+        "name": "Royal Gold",
+        "fontcolor": "#ffff02",
+        "start": "#F5BD02",
+        "end": "#c29602"
+    },
+    {
+        "name": "Gold Cmyk",
+        "fontcolor": "#4E4F03",
+        "start": "#D3BA34",
+        "end": "#dcc85e"
+    },
+    {
+        "name": "Bitter Lemon",
+        "fontcolor": "#ffff02",
+        "start": "#cccc0d",
+        "end": "#9c9c0a"
+    },
+    {
+        "name": "May Green",
+        "fontcolor": "#7FFF00",
+        "start": "#388e3c",
+        "end": "#207B24"
+    },
+    {
+        "name": "Jade",
+        "fontcolor": "#ffff02",
+        "start": "#00a86b",
+        "end": "#00754b"
+    },
+    {
+        "name": "Bottle Green",
+        "fontcolor": "#24F8DC",
+        "start": "#006a4e",
+        "end": "#009d74"
+    },
+    {
+        "name": "Esmeralda",
+        "fontcolor": "#ffff02",
+        "start": "#20C563",
+        "end": "#19994d"
+    },
+    {
+        "name": "Middle Green",
+        "fontcolor": "#e4ba92",
+        "start": "#52835b",
+        "end": "#2C5F36"
+    },
+    {
+        "name": "Palm Leaf",
+        "fontcolor": "#B4FF08",
+        "start": "#689F38",
+        "end": "#4C7E25"
+    },
+    {
+        "name": "Matcha",
+        "fontcolor": "#FFD264",
+        "start": "#74a12e",
+        "end": "#577923"
+    },
+    {
+        "name": "Acid Green",
+        "fontcolor": "#1E3D13",
+        "start": "#AFB42B",
+        "end": "#858821"
+    },
+    {
+        "name": "Olive",
+        "fontcolor": "#E9FF47",
+        "start": "#808000",
+        "end": "#b3b300"
+    },
+    {
+        "name": "Olive Green",
+        "fontcolor": "#B1FF00",
+        "start": "#677a04",
+        "end": "#91ab06"
+    },
+    {
+        "name": "Brass",
+        "fontcolor": "#423c18",
+        "start": "#b1a342",
+        "end": "#8c8134"
+    },
+    {
+        "name": "Pistachio",
+        "fontcolor": "#314c1f",
+        "start": "#93C572",
+        "end": "#77b64e"
+    },
+    {
+        "name": "Pale Mint",
+        "fontcolor": "#1f573b",
+        "start": "#9ADBBA",
+        "end": "#74cea0"
+    },
+    {
+        "name": "Petrol",
+        "fontcolor": "#04e5ff",
+        "start": "#005F6A",
+        "end": "#008d9d"
+    },
+    {
+        "name": "Skobeloff",
+        "fontcolor": "#00dfc5",
+        "start": "#00796b",
+        "end": "#03656C"
+    },
+    {
+        "name": "Teal",
+        "fontcolor": "#00e6e6",
+        "start": "#008080",
+        "end": "#004d4d"
+    },
+    {
+        "name": "Vintage Teal",
+        "fontcolor": "#a9d3d5",
+        "start": "#3B7577",
+        "end": "#4c9799"
+    },
+    {
+        "name": "Pastel Teal",
+        "fontcolor": "#295858",
+        "start": "#63B7B7",
+        "end": "#499e9e"
+    },
+    {
+        "name": "Aqua Blue",
+        "fontcolor": "#234346",
+        "start": "#79B6BC",
+        "end": "#57a3ab"
+    },
+    {
+        "name": "Pale Teal",
+        "fontcolor": "#244d4a",
+        "start": "#7bc2bc",
+        "end": "#58b2aa"
+    },
+    {
+        "name": "Atlantic",
+        "fontcolor": "#98d1ec",
+        "start": "#155370",
+        "end": "#1d739b"
+    },
+    {
+        "name": "Cerulean",
+        "fontcolor": "#74daff",
+        "start": "#007BA7",
+        "end": "#005574"
+    },
+    {
+        "name": "Ultramarine",
+        "fontcolor": "#d4dcf7",
+        "start": "#2142AB",
+        "end": "#193180"
+    },
+    {
+        "name": "India Blue",
+        "fontcolor": "#ffff02",
+        "start": "#312C6A",
+        "end": "#423b8e"
+    },
+    {
+        "name": "Indigo",
+        "fontcolor": "#c2b8e7",
+        "start": "#4B369D",
+        "end": "#5f46c0"
+    },
+    {
+        "name": "Bright Navy Blue",
+        "fontcolor": "#c0dcf7",
+        "start": "#1976D2",
+        "end": "#33109B"
+    },
+    {
+        "name": "Pigment",
+        "fontcolor": "#dadef4",
+        "start": "#303f9f",
+        "end": "#095984"
+    },
+    {
+        "name": "Vivid Cerulean",
+        "fontcolor": "#ffff02",
+        "start": "#6F75FD",
+        "end": "#03A9F4"
+    },
+    {
+        "name": "Royal Purple",
+        "fontcolor": "#e1a1ff",
+        "start": "#4B006E",
+        "end": "#6e00a1"
+    },
+    {
+        "name": "Rebecca",
+        "fontcolor": "#e6d9f2",
+        "start": "#663399",
+        "end": "#4d2673"
+    },
+    {
+        "name": "Eminence",
+        "fontcolor": "#e1c7ea",
+        "start": "#6C3082",
+        "end": "#8b3ea7"
+    },
+    {
+        "name": "Ruby",
+        "fontcolor": "#520623",
+        "start": "#E0115F",
+        "end": "#b10d4b"
+    },
+    {
+        "name": "Mexican Pink",
+        "fontcolor": "#4b0029",
+        "start": "#E4007C",
+        "end": "#b10060"
+    },
+    {
+        "name": "Bright Pink",
+        "fontcolor": "#603",
+        "start": "#FF007F",
+        "end": "#f39"
+    },
+    {
+        "name": "Rose",
+        "fontcolor": "#262338",
+        "start": "#F33A6A",
+        "end": "#f39"
+    },
+    {
+        "name": "Fandango",
+        "fontcolor": "#3e112f",
+        "start": "#B53389",
+        "end": "#8d286b"
+    },
+    {
+        "name": "Orchid",
+        "fontcolor": "#641a61",
+        "start": "#DA70D6",
+        "end": "#e499e2",
+        "type": "pro"
+    },
+    {
+        "name": "Wild Watermelon",
+        "fontcolor": "#ffff02",
+        "start": "#FC6C85",
+        "end": "#fb3a5c",
+        "type": "pro"
+    },
+    {
+        "name": "Rouge",
+        "fontcolor": "#ffff02",
+        "start": "#D7707E",
+        "end": "#cc485a",
+        "type": "pro"
+    },
+    {
+        "name": "Puce",
+        "fontcolor": "#3c1a22",
+        "start": "#CC8899",
+        "end": "#bd647a",
+        "type": "pro"
+    },
+    {
+        "name": "Salmon",
+        "fontcolor": "#9b1505",
+        "start": "#FA8072",
+        "end": "#fcaca3",
+        "type": "pro"
+    },
+    {
+        "name": "Apricot",
+        "fontcolor": "#d55a0b",
+        "start": "#FBCEB1",
+        "end": "#f9b080",
+        "type": "pro"
+    },
+    {
+        "name": "Mint",
+        "fontcolor": "#1f5a37",
+        "start": "#75D09A",
+        "end": "#4fc37e",
+        "type": "pro"
+    },
+    {
+        "name": "Sage",
+        "fontcolor": "#3a4f2c",
+        "start": "#B9D0AA",
+        "end": "#9ebe89",
+        "type": "pro"
+    },
+    {
+        "name": "Celadon",
+        "fontcolor": "#386c3d",
+        "start": "#C3E0C6",
+        "end": "#a1cfa6",
+        "type": "pro"
+    },
+    {
+        "name": "Aqua Blue",
+        "fontcolor": "#234346",
+        "start": "#79B6BC",
+        "end": "#9bc9cd",
+        "type": "pro"
+    },
+    {
+        "name": "Powder Blue",
+        "fontcolor": "#18464c",
+        "start": "#B0E0E6",
+        "end": "#89d1da",
+        "type": "pro"
+    },
+    {
+        "name": "Ice Blue",
+        "fontcolor": "#1e3759",
+        "start": "#739BD0",
+        "end": "#99b6dd",
+        "type": "pro"
+    },
+    {
+        "name": "Glaucous",
+        "fontcolor": "#ffffff",
+        "start": "#6082B6",
+        "end": "#839dc6",
+        "type": "pro"
+    },
+    {
+        "name": "Blue Grey",
+        "fontcolor": "#ffffff",
+        "start": "#758DA3",
+        "end": "#5c7389",
+        "type": "pro"
+    },
+    {
+        "name": "Slate",
+        "fontcolor": "#ffffff",
+        "start": "#516572",
+        "end": "#667f90",
+        "type": "pro"
+    },
+    {
+        "name": "Deep Space",
+        "fontcolor": "#C1DCE7",
+        "start": "#455a64",
+        "end": "#2E4652",
+        "type": "pro"
+    },
+    {
+        "name": "Periwinkle",
+        "fontcolor": "#4A1969",
+        "start": "#CCCCFF",
+        "end": "#99f",
+        "type": "pro"
+    },
+    {
+        "name": "Amethyst",
+        "fontcolor": "#1a0d26",
+        "start": "#9966CC",
+        "end": "#b38cd9",
+        "type": "pro"
+    },
+    {
+        "name": "Heather",
+        "fontcolor": "#262338",
+        "start": "#A484AC",
+        "end": "#8d6697",
+        "type": "pro"
+    },
+    {
+        "name": "Thistle",
+        "fontcolor": "#4e314c",
+        "start": "#e1d0e0",
+        "end": "#e2b8df",
+        "type": "pro"
+    },
+    {
+        "name": "Quartz",
+        "fontcolor": "#262338",
+        "start": "#D9D9F3",
+        "end": "#b2b2e7",
+        "type": "pro"
+    },
+    {
+        "name": "Lilac",
+        "fontcolor": "#262338",
+        "start": "#DCD0FF",
+        "end": "#b69dff",
+        "type": "pro"
+    },
+    {
+        "name": "Chestnut",
+        "fontcolor": "#ffff02",
+        "start": "#5d4037",
+        "end": "#522F24"
+    },
+    {
+        "name": "Solid Brown",
+        "fontcolor": "#ffff02",
+        "start": "#5F331F",
+        "end": "#85482c"
+    },
+    {
+        "name": "Deep Taupe",
+        "fontcolor": "#ffff02",
+        "start": "#705364",
+        "end": "#8d697e",
+        "type": "pro"
+    },
+    {
+        "name": "Mauve Brown",
+        "fontcolor": "#ffff02",
+        "start": "#62595F",
+        "end": "#7d7179",
+        "type": "pro"
+    },
+    {
+        "name": "Theme 20",
+        "fontcolor": "#fa0231",
+        "start": "#0c0c0c",
+        "end": "#1D1F1D",
+        "type": "pro"
+    }
 ]
