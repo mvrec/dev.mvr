@@ -1,4 +1,7 @@
 [
     { "name": "None", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/empty.png" },
-    { "name": "01", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/bottom-imgs/01.png" }
+    { "name": "01", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/bottom-imgs/01.png" },
+    { "name": "02", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/bottom-imgs/02.png" },
+    { "name": "03", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/bottom-imgs/03.png" },
+    { "name": "04", "imgg": "https://cdn.jsdelivr.net/gh/mvrec/dev.mvr@master/promocards/overlays/bottom-imgs/04.png" }
 ]
